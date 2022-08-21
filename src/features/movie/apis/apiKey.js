@@ -1,5 +1,5 @@
 // My API key to access the omdb service
-export const APIKey = procees.env.APIKEY;
+export const APIKey = "cba51adc";
 
 const requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
