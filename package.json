@@ -1,0 +1,49 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "author": "Heccubernny",
+  "description": "A netflix clone",
+  "keywords": [
+    "react",
+    "starter",
+    "netflix"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@reduxjs/toolkit": "1.8.4",
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "13.3.0",
+    "@testing-library/user-event": "14.4.3",
+    "autoprefixer": "10.4.8",
+    "axios": "0.27.2",
+    "firebase": "^9.9.2",
+    "postcss": "8.4.16",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "4.4.0",
+    "react-redux": "8.0.2",
+    "react-router": "6.3.0",
+    "react-router-dom": "6.3.0",
+    "react-scripts": "4.0.0",
+    "redux": "4.2.0",
+    "redux-thunk": "2.4.1",
+    "tailwindcss": "3.1.8",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
